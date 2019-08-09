@@ -1,0 +1,290 @@
+Tables
+
+pr_scope_merge
+prdb_cm_events
+dr_bsln_scrpt
+dr_bsln_prs
+
+dr_bsln_dbg_pr_tc
+
+
+		   debug_id: 4521891, 
+                    test_exec_id: 33004785, 
+                    main_dr_id: 139936, 
+                    scenario_profile_id: "126906-334634", 
+                    tc_fail: "6", 
+                    tc_details: "{6}", 
+                    prs: "o 1308556", 
+                    pr_details: "{1308556}", 
+                    debug_exitcode: "FAIL", 
+                    image_version: "17.4", 
+                    edw_create_time: 1523528922940, 
+                    edw_update_time: 1523528922940
+
+dr_bsln_prs
+
+	debug_id
+	scenario_profile_id
+	pr_num
+	edw_create_time
+	edw_update_time
+
+dr_bsln_scrpt
+
+	id
+	script_name
+	scenario_profile_name
+	scenario_profile_id
+	harness_type
+	edw_create_time
+	edw_update_time
+
+
+pr_scope_merge
+
+	category
+	synopsis
+	confidential
+	customer_risk
+	old_priority
+	dev_introduced_rli_or_pr
+	cvss_base_score
+	dev_phase_to_improve
+	resolution_reason
+	id - PR Number
+	class_
+	submitter_id
+	related_prs
+	rli
+	arrival_date
+	last_modified
+	originator
+	blocking_release
+
+1 Dr Database
+
+
+
+
+
+Commands
+du -hs /path/to/directory
+
+ssh testtool@ttqc-shell03
+ssh testtool@ttsv-neo4j-temp
+ssh testtool@ttqc-cbr2-cbld-01
+pass: B3k1nD+
+
+tmux a -t
+tmux kill-session -t
+
+rsync -h -v -r -P -t source destination
+
+scp  /Users/patila/PycharmProjects/Jenie/data_ingestion_O.py patila@ttqc-shell03:/homes/patila/exec_env/
+scp  /Users/patila/Desktop/june_data.csv patila@ttqc-shell03:/homes/patila/exec_env/
+
+scp testtool@ttsv-neo4j-temp:/opt/ml_analyzer/log_downloader.py ⁨NBCMovieReviews⁩/
+scp -r testtool@ttsv-neo4j-temp:/opt/ml_analyzer/DATA/data2 /Users/patila/Desktop/Data_Sets
+
+scp -r /Users/patila/Documents/data/data4 testtool@ttqc-cbr2-cbld-01:/c/jenie/filtered_data_2/data4
+
+Number of all files
+ls | wc -l
+find . -type f -print | wc -l
+
+scp -r  /Users/patila/PycharmProjects/Jenie/ML_Model.py testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/ 
+rsync -h -v -r -P -t  testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/cnf_mtrx /Users/patila/Desktop/
+
+scp -r /Users/patila/Documents/data/data4 testtool@ttqc-cbr2-cbld-01:/c/jenie/filtered_data_2/data4
+
+scp -r testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/cnf_mtrx /Users/patila/Desktop/
+
+scp -r /Users/patila/Desktop/Excels/June_Data1.csv testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/
+
+scp -r /Users/patila/PycharmProjects/Jenie/data_ingest/clean_data.py testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/
+
+scp -r /Users/patila/PycharmProjects/Jenie/ML_Model.py testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/
+
+scp -r testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/ /Users/patila/Desktop/buckets 
+
+2019_Jun_26_13_21_voca.txt
+
+2019_Jul_12_11_15_lbls_syn.joblib
+
+Get Model:
+scp -r testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/vectors/2019_Jul_16_12_24_vctr.joblib /Users/patila/Desktop/Trained_Model/rfc_gini/
+scp -r testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/models/2019_Jul_17_17_07_clfr.joblib /Users/patila/Desktop/Trained_Model/rfc_gini/
+scp -r testtool@ttqc-cbr2-cbld-01:/c/jenie/exec_env/execution_log.txt /Users/patila/Desktop/
+
+scp -r patila@ttqc-shell03:/volume/testtech/fusion-regression/results/fusion/prod/2019/May/SUB_3291917/67739634/attempt_1/script-exec/  /Users/patila/Desktop
+
+scp -r patila@ttqc-shell03:/homes/patila/exec_env/July_Data /c/jenie/exec_env
+scp -r testtool@contrail-ubm-jammyc.ccp.juniper.net:/b/jammyc/jenie_update/jenie/predict /Users/patila/Desktop
+
+
+Juniper links
+
+1. Sharepoint: https://junipernetworks.sharepoint.com/
+2. Engineering document Center (This is where functional specifications and other NPI documents are created and stored) https://junipernetworks.sharepoint.com/sites/engdoccenter
+3. GNATS https://gnats.juniper.net/
+4. Deepthought https://deepthought.juniper.net/app/
+5. Systest http://systest.juniper.net
+6. Cornerstone Learning Management System (Juniper University). You will need to wait one or two days after your start date before you can access Cornerstone. For example, if you start on a Monday, you should have access by Tuesday or Wednesday.
+    * Access Juniper University: https://juniper.csod.com
+Questions: email newcolleagues@juniper.net 
+
+Junos logs
+https://apps.juniper.net/syslog-explorer/#sw=Junos%20OS&rel=19.1R1
+
+
+Wi-Fi Guest access
+https://jguest.jnprguest.net/sponsor
+
+DR
+https://systest.juniper.net/ti/webapp/dr/main_dr/index.mhtml?mode=0:0:0
+
+
+SSD Gitlab
+https://svl-ssd-git.juniper.net/TIDE/applications/shared/ml_shared
+
+https://svl-ssd-git.juniper.net/kmeehan/ML_SFC
+
+contrail-ubm-jammyc.ccp.juniper.net:/b/jammyc/jenie_update
+
+Ppt
+
+https://junipernetworks-my.sharepoint.com/personal/patila_juniper_net/_layouts/15/onedrive.aspx?view=3
+
+
+
+Token Patterns
+
+[^0-9]*
+
+No individual numbers
+token_pattern=u'(?ui)\\b\\w*[a-z]+\\w*\\b'
+
+Words without number and no numbers
+token_pattern=r'\b[^\d\W]+\b'
+
+doc_set_1 bigrams total features
+6114732 - 6 Million - ^Numbers and ^Stopwords
+1452056 - 1.5 Million - ^Numbers and ^Words with numbers and ^Stopwords
+
+def preprocess(data):
+    data = convert_lower_case(data) - done by vectorizer
+    data = remove_punctuation(data)
+    data = remove_apostrophe(data)
+    data = remove_single_characters(data)
+    data = convert_numbers(data)
+    data = remove_stop_words(data)
+    data = stemming(data)
+    data = remove_punctuation(data)
+    data = convert_numbers(data)
+
+
+# For TFIDF vectors
+# X_train = vect.fit_transform(text_train)
+
+# Code for regression feature selection
+# X_train = load_file('matrix/2019_Jun_26_14_49_mtrx.joblib')
+# vect = load_file('vectors/2019_Jun_26_14_48_vctr.joblib')
+# v_file = 'vectors/2019_Jun_26_14_48_vctr.joblib'
+
+
+Changes:
+
+Remove FTP from data_ingestions
+arg_parse
+Label to Digit mapping from load_files()
+
+
+Links
+
+Hyper Parameter Tuning:
+https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
+
+Model Comparison:
+https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
+
+Parital FIt Models
+https://scikit-learn.org/0.15/modules/scaling_strategies.html
+
+Oversampling and Undersampling:
+https://imbalanced-learn.readthedocs.io/en/stable/over_sampling.html
+
+Clustering using k-means
+https://scikit-learn.org/stable/auto_examples/text/plot_document_clustering.html#sphx-glr-auto-examples-text-plot-document-clustering-py
+
+Incremental Vectorization
+https://stackoverflow.com/questions/25154231/updating-the-feature-names-into-scikit-tfidfvectorizer/47639930#47639930
+
+SelectKBest
+https://scikit-learn.org/0.16/auto_examples/text/document_classification_20newsgroups.html
+https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_extraction.text
+
+Scoring Functions
+http://www.cse.chalmers.se/~richajo/dit866/lectures/l4/Feature%20ranking%20examples.html
+
+Scoring function to be used in a feature selection procedure
+https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html#sklearn.feature_selection.SelectKBest
+
+Updating models
+https://medium.com/codait/keeping-your-machine-learning-models-up-to-date-f1ead546591b
+
+https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/
+
+https://scikit-learn.org/0.15/modules/scaling_strategies.html
+
+NBC
+https://github.com/triandicAnt/IMDB_TwitterSentimentAnalytics/blob/master/sentiment.py
+
+https://towardsdatascience.com/sentiment-analysis-with-python-part-1-5ce197074184
+
+https://itnext.io/machine-learning-sentiment-analysis-of-movie-reviews-using-logisticregression-62e9622b4532
+
+Vectorizers
+https://www.oreilly.com/library/view/applied-text-analysis/9781491963036/ch04.html
+
+Out of Core Classifier
+https://scikit-learn.org/dev/auto_examples/applications/plot_out_of_core_classification.html
+
+Joblib Persistence
+https://joblib.readthedocs.io/en/latest/persistence.html
+
+Token pattern: https://stackoverflow.com/questions/45981037/sklearn-tf-idf-to-drop-numbers
+
+Pipeline:
+https://scikit-learn.org/stable/auto_examples/model_selection/grid_search_text_feature_extraction.html#sphx-glr-auto-examples-model-selection-grid-search-text-feature-extraction-py
+
+https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
+
+https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html
+
+Pipeline example
+https://www.kaggle.com/sermakarevich/sklearn-pipelines-tutorial
+
+SKlearn Rec Feature Elimination:
+ https://scikit-learn.org/stable/auto_examples/feature_selection/plot_rfe_with_cross_validation.html#sphx-glr-auto-examples-feature-selection-plot-rfe-with-cross-validation-py
+ 
+ 
+ 
+ Classifications
+
+Add the following as part of software bugs:
+'TOXIC-PR',
+'TOXIC-BUILD'
+ 
+Keep the following as unclassified/unknown/other buckets:
+ 
+'FALSE-FAILURE-ANALYZED',
+'FALSE-FAILURE-RESOLVED',
+'save/var/tmp/baseline-config.confshowsystemcore-dumpsshowsystemsubscriber-managementstatistics',
+'JBATCH-UPDATE',
+'AUTO-UPDATE',
+'matchUp',
+'PARAMS-ISSUE',
+'OTHER',
+ 
+Add this as new buckets: PRODUCT_LIMITATION:
+'KNOWN-ISSUE-NOT-FIXED'
