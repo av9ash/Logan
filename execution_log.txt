@@ -1,0 +1,11 @@
+File loaded models/2019_Jul_31_15_55_modl.joblib
+File loaded models/2019_Jul_31_15_55_modl.joblib
+Transforming..
+Transformation Time: 349.64854621887207
+Vector Saved /Users/patila/PycharmProjects/Jenie/vectors/2019_Jul_31_16_14_vctr.joblib
+4194304
+\b\w{1,}[^\d\W]+\b
+(2, 2)
+No Stop Words
+Matrix Saved /Users/patila/PycharmProjects/Jenie/matrices/2019_Jul_31_16_14_mtrx.joblib
+File loaded models/2019_Jul_31_15_55_modl.joblib
